@@ -1,0 +1,61 @@
+/* LoginRegister.css */
+
+.login-form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 120px;
+  background-image: url('/src/components/images/Banner_Log4.jpg'); /* Ganti 'path/to/your/image.jpg' dengan path gambar Anda */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  align-items: center;
+  }
+  
+  .login-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ffff;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form p {
+    margin-top: 16px;
+    font-size: 0.9rem;
+  }
+  
+  .login-form span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .login-form span:hover {
+    text-decoration: underline;
+  }
+  
